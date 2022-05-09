@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body {
+  background-color: #F9CEEE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-self: center;
+  background-color: #F9F3EE;
+  min-height: 90vh;
+  width: 450px;
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* img {
+  margin-bottom: 10px;
+} */
+img {
+  padding: 10px;
+  border-radius: 40px;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .imageTwo {
+  margin-top: 50px;
 }
+
+h1, h2 {
+  color: rgb(99, 45, 208);
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Rampart One', cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+}
+
+.inputPlace {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  color: #97C4B8;
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  font-family: 'Play', sans-serif;
+}
+
+.add {
+  width: 40px;
+  height: 40px;
+  background: #97C4B8;
+  color: #F9CEEE;
+  font-family: 'Play', sans-serif;
+}
+
+.delete {
+  width: 50%;
+  height: 40px;
+  background: rgb(255, 174, 0);
+  font-family: 'Play', sans-serif;
+}
+
+.crossed {
+    text-decoration: line-through 2px rgb(255, 174, 0);
+    background-color: #f0f0f0;
+  }
+
+  ul, li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+  } 
+
+  .btn {
+    padding: 10px;
+    border: none;
+    width: 150%;
+    color: white;
+    font-size: 16px;
+  }
+
